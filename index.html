@@ -6,56 +6,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/style.css">
-    <title>RockCast</title>
+    <title>RockCoast</title>
 </head>
 
 <header>
     <div class = "navbar">
         <div class="logo">
-            jndcjdncc
+            <img src="assets/images/Rock Coast.png" alt="">
         </div>
 
         <div id ="navlinks">
-            <a href="">Home</a>
-            <a href="">Televisons</a>
-            <a href="">Electronic</a>
-            <a href="">Services</a>
+            <a href=""> Home </a>
+            <a href=""> Televisons </a>
+            <a href=""> Electronics </a>
+            <a href=""> Services </a>
         </div>
-
-
     </div>
 </header>
+
 <body>
 
     <div id ="mainContainer">
         <h1>Something Occurs</h1>
+        <p>Within this space is some text, or other graphical representaions of things that this page displays </p>
         <br>
         <h2>Products</h2>
 
         <!--Making Product Cards that hold information-->
         <div class ="productCards">
-            <h3>Product Name</h3>
 
-           <div id ="cardOne">
-              <p id ="line one">This is a product description. It takes up a few lines of space</p>
-              <p id ="line two"></p> 
-              <p id ="line tree"><button>Buy it now!</button></p>
-            </div>
 
-            <h3>Product Name</h3>
-            <div id ="cardTwo">
-                <p class ="line one">This is a product description. It takes up a few lines of space</p>
-                <p id ="line two"></p>
-                <p id ="line tree"><button>Buy it now!</button></p>
-            </div>
+            <div class="rowOfCards">
+                
+                <div class = "column">
+                    <h3>Product Name: </h3>
+                    <div class ="cardOne">
+                        <p id ="lineOne">This is a product description. It takes up a few lines of space</p>
+                        <p  id ="lineTwo">
+                            Product Info:  
+                            <br>
+                            More Info:
+                            <br>
+                        </p>
+                        <p id ="lineThree"><button>Buy it now!</button></p>
+                    </div>
+                </div>
 
-            <h3>Product Name</h3>
-            <div id="cardThree">
-                <p class ="line one">This is a product description. It takes up a few lines of space</p>
-                <p id ="line two"></p>
-                <p id ="line tree"><button>Buy it now!</button></p>
+                
+                <div class = "column">
+                    
+                    <div class ="cardTwo">
+                        <p id ="lineOne">This is a product description. It takes up a few lines of space</p>
+                        <p id ="lineTwo">
+                            Product Info:
+                            <br>
+                            More Info: 
+                        </p>
+                        <p id ="lineThree"><button>Buy it now!</button></p>
+                    </div>
+                </div>
+
+                
+                <div class = "column">
+                   
+                    <div class ="cardThree">
+                        <p id ="lineOne">This is a product description. It takes up a few lines of space</p>
+                        <p id ="lineTwo">
+                            Product Info:
+                            <br>
+                            More Info: 
+                        </p>
+                        <p id ="lineThree"><button>Buy it now!</button></p>
+                    </div>
+                </div>
+
+                
             </div>
-           
 
         </div>
 
